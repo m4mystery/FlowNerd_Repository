@@ -1,0 +1,939 @@
+/*  
+Theme Name: Fighter
+Theme URI:
+Description: Fighter theme desgined by <a href="http://www.mydizayn.org/">My Dizayn</a>.
+Version: 1.4
+Author: Suat
+Author URI: http://www.mydizayn.org/
+Tags: black, white, widget ready, two columns, simple
+*/
+
+
+* { margin: 0; padding: 0; }
+
+body {
+	text-align: center;
+	margin: 0 auto;
+	line-height: normal;
+	color: #666666;
+	border-bottom-color:#666666;
+	}
+
+p2 {
+	font-family: Georgia;
+	font-size: 11px;
+
+}
+
+p3 {
+	font-family: Georgia;
+	font-size: 11px;
+	
+
+}
+
+imput_text_info {
+	margin-bottom: 20px;
+
+}
+
+space {
+	height: 20px;
+	position: absolute;
+
+}
+
+p {
+	font-family: Georgia;
+	font-size: 10px;
+}
+
+A:link {color: #666666; text-decoration:none; font-weight:bold}
+A:visited {color: #666666; text-decoration:none; font-weight:bold}
+A:active {color: #666666; text-decoration:none; font-weight:bold}
+A:hover {color: #666666; text-decoration:underline; font-weight:bold}
+	
+
+/* -------------------
+Main Structure
+------------------- */
+
+div.table {display: table; }
+div.tr {display: table-row; }
+div.td {display: table-cell; }
+
+.home_content p{
+	font-family: Georgia;
+	font-size: 11px;
+	text-align: justify;
+}
+
+.home_content p2{
+	font-family: Georgia;
+	font-size: 11px;
+	font-weight:bold;
+
+}
+
+
+
+#about_container {
+	width: 1024px;
+	font-family: Georgia;
+	font-size: 11px;
+	margin-left: 22px;
+	
+}
+
+#about_container table{
+	font-family: Georgia;
+	font-size: 11px;
+	text-align:justify;
+}
+
+#about_container p{
+	font-family: Georgia;
+	font-size: 11px;
+	text-align:justify;
+}
+
+#about_container td{
+	font-family: Georgia;
+	font-size: 11px;
+	
+}
+	
+#frame {
+	width: 1024px;
+	text-align: left;
+	margin: 0 auto;
+	}
+	
+#middle {
+	overflow: hidden;
+	width: 1024px;
+	margin:0 auto;
+	}
+
+#middle_home {
+	overflow: hidden;
+	width: 1024px;
+	margin-left:0px;
+	float: left;
+	clear:both;
+
+	
+	}
+
+#middle_blog {
+	overflow: hidden;
+	width: 1024px;
+	margin:0 auto;
+	position:relative;
+	font-size: 11px;
+
+	}
+
+#content {
+	float: left;
+	width: 1024px;
+	padding-left: 0px;
+   	padding-right: 0px;
+        overflow: hidden;
+	
+	}
+
+#content_home {
+	float: left;
+	width: 500px;
+   	padding-left: 0px;
+   	padding-right: 0px;
+    	overflow: hidden;
+	margin-left:0px;
+	position:relative:
+	}
+
+	
+#sidebar {
+	width: 210px;
+	padding-left: 0px;
+    	padding-right: 0px;
+	position:absolute;
+    	overflow: visible;
+	right: 2%;
+	top: 120px;
+	float:right;
+	}
+	
+/* -------------------
+Header
+------------------- */
+
+#header {
+        background: url(images/header.png);
+        width: 1024px;
+        height: 100px;
+	margin:0 auto;
+	text-decoration: none;
+	clear:both;
+	}
+
+#header td{
+        vertical-align: top;
+	}
+
+img { 	
+	border: 0;
+	text-decoration: none;
+}
+	
+.header-title {
+	font-family: Georgia;
+	color:#000000;
+	font-size:28px;
+        font-weight:bold;
+	padding:50px 0 0 0px;
+	text-align: center;
+	}
+.header-title a{
+	color:#000000;
+	text-decoration:none;
+	border-bottom:none;
+	}
+.header-title a:hover{
+	color:#FFFFFF;
+	text-decoration:none;
+	border-bottom:none;
+	}
+
+/* -------------------
+Navigation Menu
+------------------- */
+
+.header-nav {
+  	width: 1024px;
+	height: 30px;
+	margin-top: 51px;
+
+}
+
+.header-nav a{
+  	padding: 1px 1px 1px 1px;
+	text-decoration: none;
+	float: left;
+	color: #000000;
+	font-size: 11px;
+	line-height: 12px;
+
+}
+
+.header-nav a:hover {
+	padding: 1px 1px 1px 1px;
+	float: left;
+	color:#000000;
+	font-size:11px;
+	line-height: 12px;
+	text-decoration:none;
+	border-bottom: 1px solid black;
+}
+
+#navmenu {
+	text-align: left;
+	height: 40px;
+	weight:1024px
+	color:#000000;
+	font-family: Helvetica;
+	font-size: 11px;
+	font-weight:normal;
+	margin: auto;
+	margin-top: -25px;
+}
+
+#nav_menu_table {
+	width:1024px;
+	margin: auto;
+	color: #000000;
+	font-family: Helvetica;
+	font-weight:normal;
+}
+
+#nav_menu_table a{
+	font-family: Helvetica;
+	font-weight:normal;
+	font-size:11px;
+}
+
+
+
+
+/* -------------------
+Header
+------------------- */
+
+
+.slideshow_container {
+	width: 1024px;
+	height: 0px;
+	background-color:#f2f2f2;
+	margin-top: -55px;
+	display:block;
+
+}
+
+.slideshow_container_blog {
+	width: 1024px;
+	height: 0px;
+	background-color:#f2f2f2;
+	margin-top: -55px;
+	display:block;
+
+}
+
+/* -------------------
+Post Style
+------------------- */
+
+#outer-container {
+    width: 725px;
+    margin-left: 40px;
+font-size:11px;
+text-align:justify;
+	
+}
+
+
+.left-container {
+    width: 340px;
+    max-height:1500px;
+	min-height:50px;
+    float: left;
+    padding: 25px;	
+margin-left: -16px;
+font-size:11px;
+text-align:justify;
+
+
+}
+
+.left-container p {
+    font-size:11px;
+line-height:15px;
+
+}
+
+.right-container {
+    width: 340px;
+    max-height:1500px;
+	min-height:50px;
+    float: left;
+    padding: 25px;
+   margin-left: -40px;
+font-size:11px;
+text-align:justify;
+
+
+  
+}
+
+.right-container p {
+   font-size:11px;
+	line-height:15px;
+
+  
+}
+#top-container {
+    width: 700px;
+    height: 430px;
+
+}
+
+
+
+/* -------------------
+Content
+------------------- */
+option {
+	color: #666666; 
+	font-size:10px; 
+	font-family: Georgia;
+}
+select {
+	color: #666666; 
+	font-size:10px; 
+	font-family: Georgia;
+}
+
+.size-box-left {
+	float: left;
+	height: 100%; 
+	width: 100px;
+	}
+.size-box-right {
+	float: left;
+	height: 100%; 
+	width: 350px;
+	}
+
+.size-box {
+	margin-left:25px; 
+	height: 200px; 
+	width: 470px; 
+	vertical-align: middle;
+	margin-bottom:10px;
+	}
+
+.single-prod-table-div {
+	display: table;
+	height: 140px;
+	width: 100%;
+	font-size:10px;	
+	font-family: Georgia;
+	}
+
+.single-prod-row-div {
+	display: table-row; 
+	margin: 5px;
+	}
+
+.single-prod-cell-div {
+	display: table-cell;  
+	padding: 0px 0px 0px 90px;
+	}
+
+.single-prod-row-div2 {
+	display: table-row; 
+	margin: 5px;
+	}
+
+.single-prod-cell-div2 {
+	display: table-cell;  
+	padding: 10px;
+	}
+
+#content .post {
+	margin-left: 5px;
+	color: #666666;
+	width:785px;
+	}
+	
+/* general #content definitions */
+	
+#content h2 {
+	font: 0.8em; 
+	margin: 11px 0 8px 0;
+        padding: 4px 0px 5px 6px;
+	background:#F4F4F4
+	}
+
+#content h2 a {
+	text-decoration: none;
+	font-weight: bold;
+	}
+
+#content h2 a:hover {
+	text-decoration: none;
+	color:#0088bb;
+	}
+	
+#content h3 {
+	font: 0.7em/1.5em;
+	font-weight: bold;
+    margin-left: 15px;
+	}
+	
+#content h4 {
+	font: 0.7em/1.5em;
+	border-left: 1em solid #000000;
+	padding: 0 0 0 0.5em;
+	margin: 1em 0;
+	}
+	
+#content p, #content dl {
+	font: 0.7em/1.5em;
+	}
+	
+#content p, #content ul, #content ol, #content dl {
+	margin: 0 0 0.7em 0;
+	}
+	
+#content li {
+	margin: 0 0 0 30px;
+	font: 0.8em/1.5em;
+	}
+	
+#content dl dt {
+	font-weight: bold;
+	}
+	
+#content dl dd {
+	margin: 0 0 0.4em 0.5em;
+	}
+	
+#content blockquote {
+	margin: 0 0 0 1em;
+	border-left: 5px solid #4d4d4d;
+	padding: 0 0 0 1em;
+}
+	
+#content a {
+	color: #666666;	
+	font: 1em;
+	font-weight: bold;
+ }
+#content a:hover { color: #4d4d4d; }
+	
+#content .post ul.post-data {	
+       	list-style: none;
+	font-size: 10px;
+	font-family: Georgia;
+	padding: 0.1em 0 0.2em 0;
+	color: #666666;
+	margin: 1.3em 0 0 0;
+	}
+
+#content .post ul.post-data li {
+	color: #666666;
+	list-style: none;
+	}
+	
+#content .post ul.post-data a {
+	color: #666666;
+    text-decoration: none;
+	list-style: none;
+    
+	}
+	
+#content .post ul.post-data a:hover {
+        text-decoration: underline;
+    
+	}
+
+#content .post ul.post-data li.comments {
+	float: right;
+	margin: 0 0.7em 0 0;
+	display: inline;
+	font: 0.8em/1.5em;
+	}
+	
+#content .post ul.post-data li.comments a {
+	padding: 0 0 0 15px;
+
+	}
+#content .post ul.post-data li.tags {
+	margin: 0 0 0 0.7em;
+	}
+	
+#content .post ul.post-data li.tags a {
+	padding: 0 0 0 1px;
+
+	}
+	
+#content .post ul.post-data li.posted {
+	margin: 0 0 0 0.7em;
+
+	}
+	
+#content .post ul.post-data li.posted a {
+	padding: 0 0 0 1px;
+
+	}
+	
+#content .post ul.post-data li.comments a:hover, #content .post ul.post-data li.posted a:hover, #content .post ul.post-data li.tags a:hover {
+	background-position: 0 -38px;
+
+	}
+
+.entry {
+	clear:both;	
+	}
+
+.entry td{
+	vertical-align: top;
+	padding: 12px;
+	
+}
+
+.entry  p {
+	margin: 5px 0 5px 0;
+	padding: 0;
+	}
+
+
+.entry  img { 
+      padding: 5px;
+      border: 0px dotted #000000;
+      }
+
+
+.entry  img.alignleft { 
+                float: left;
+                margin: 3px 3px 1px 0;
+                }
+
+.entry  img.alignright { 
+                 float: right;
+                 margin: 0 3px 1px 3px;
+                 }
+
+.spacer {   padding: 0px;
+           clear:both;
+			
+            }
+	
+/* -------------------
+Facebook like
+------------------- */
+
+#basic_facebook_social_plugins_likebutton {
+	float: right;
+
+}
+
+/* -------------------
+Comments
+------------------- */
+
+#content #comments {
+	margin: 0 20px 20px 25px;
+	width:750px;
+	}
+	
+#content #comments .comment {
+	margin: 0 0 2em 0;
+	font: 10px Georgia;
+	}
+	
+#content #comments .comment p, #content #comments .comment li, #content #comments .comment a { 
+	font: 10px Georgia;
+	color: #666666;	}
+#content #comments .comment a:hover { 
+	font: 10px Georgia;
+	color: #4d4d4d; }
+	
+#content #comments .comment p {
+	margin: 0 0 0.8em 0;
+	font: 11px Georgia;
+	}
+	
+#content #comments .comment .comment-data p {
+	font: 11px Georgia;
+	color: #000000;
+	padding: 0 0 0 22px;
+	margin: 1.5em 0 0 0;
+	}
+	
+#content #comments .comment .comment-data p a { 
+	font: 11px Georgia;
+	color: #666666; }
+#content #comments .comment .comment-data p a:hover { color: #ff0000; }
+
+#content #comments form {
+	color: #666666;
+	font: 11px Georgia;
+	}
+
+#content #comments form a { color: #666666; }
+#content #comments form a:hover { color: #4d4d4d; }
+	
+/* -------------------
+Sidebar
+------------------- */
+
+.button-secondary {
+	float:right;
+	margin-top:10px;
+	
+}
+
+.searchform {
+	margin-top:10px;
+	
+	
+}
+
+.searchform search-input{
+	width:180px;
+}
+
+.searchform submit{
+	float:right;
+	margin-right:-20px;
+		
+}
+
+
+#sidebar small{
+	float:left;
+}
+
+
+#sidebar h3{
+	font-size:11px;
+font-family:Georgia;
+}
+
+#textbox {
+	margin-top: 5px;
+	width: 191px;
+	height: 21px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+	
+}
+
+#search_button {
+	margin-top: 0px;
+	float: right;
+	
+	
+}
+
+fieldset {border: 0; padding: 0 0 0.1em 0;}
+input {margin: 0 0.3em 0.1em 0; padding: 0.1em;}
+
+	
+#sidebar h3 {
+	font-family: Georgia;
+	color:#666666;
+	font-size: 11px;
+	margin-left: 10px;
+	padding-top: 30px;
+     	text-align: left;
+	}
+
+
+	
+#sidebar p, #sidebar li {
+	color: #666666;
+	font-family: Georgia;
+	color:#666666;
+	font-size: 11px;   
+	
+	}
+
+	
+#sidebar p, #sidebar ul, #sidebar ol {
+	
+
+	margin-left: 10px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: Georgia;
+	color:#666666;
+	font-size: 11px;
+	}
+	
+#sidebar ul { 
+	margin-right:0px;
+	list-style: none; 
+	background: url(http://flownerds.co.uk//wp-content/themes/fighter/images/widget_line.png) no-repeat bottom center;
+	}
+
+#sidebar ul li {
+	padding: 2px 0px 1px 0px;
+	list-style-type: none;
+	}
+	
+
+#sidebar a {
+	text-decoration: none;
+    	font-family: Georgia;
+	color:#666666;
+	font-size: 11px;
+	font-weight:normal;
+	}
+	
+#sidebar a:hover {
+	color: #4d4d4d;
+	font-family: Georgia;
+	font-size: 11px;
+	font-weight:normal;
+	text-decoration:underline;
+	border-bottom: 1px dotted white;
+	}
+
+
+
+/* -------------------
+Footer
+------------------- */
+
+#footer {
+	clear: both;
+	width: 1024px;
+    height: 45px;
+    margin: 0 auto;
+        background: #f2f2f2;	
+	}
+	
+#footer #footertext {
+	clear: both;
+	font-size: 11px;
+	font-family: Georgia;
+	padding: 0 0 0 0;
+	text-align: left;
+	margin-top: 5px;
+	color: #4d4d4d;
+
+	}
+
+#footer td {
+	vertical-align: top;
+	font-size: 11px;
+	font-family: Georgia;
+	padding-left:35px;
+	padding-right:35px;
+	color: #4d4d4d;
+	clear: both;
+	}
+	
+#footer #footertext a {
+	text-decoration: none;
+	color: #4d4d4d;
+	}
+
+#footer #footertext p {
+	text-decoration: none;
+	color: #4d4d4d;
+	font-size: 11px;
+	}
+
+#footer #footertext a:hover {
+	text-decoration: underline;
+	}
+	
+#footer #searchform {
+	padding: 32px 0 0 31px;
+	}
+	
+#footer #searchform .searchfield {
+	height: 18px;
+	}
+	
+#footer #searchform .searchbutton {
+float:right;   	
+height:23px;
+	
+	}
+
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	
+	padding: 5px 10px 3px;
+	list-style: none;
+	background-color:#f2f2f2;
+	font-size:11px;
+	}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+	letter-spacing: 1px;
+	font-size:11px;
+	}
+
+#commentform p {
+	margin: 5px 0;
+	font-size:11px;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	float:right;
+	display: block;
+	font-weight: normal;
+	}
+
+.commentlist li .avatar { 
+	float: right;
+	border: 1px solid #666666;
+	padding: 2px;
+	
+	}
+ol.commentlist .author_comment {
+	background:#f8f8f8;
+	color:#2aace2;	
+}
+
+
+#commentform {
+margin: 2em 0;
+margin-left:2em;
+width: 365px;
+}
+
+#commentform textarea {
+border: 1px solid #f2f2f2;
+width: 350px;
+}
+
+#commentform #email, #commentform #author, #commentform #url {
+font-size: 1.1em;
+border: 1px solid #f2f2f2;
+width: 180px;
+height: 15px;
+}
+
+#commentform input{
+margin-bottom: 1px;
+}
+
+#commentform #submit {
+	  margin-right:10px;
+	  float:right;
+    	 
+  	}
+
+.post{margin:0 0 25px 0;}
+
+.post .info{
+padding:2px 3px 3px 8px;
+background-color:#ffffff;
+font-size:10px;
+color:#666666;
+}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left
+	}
+.aligncenter, div.aligncenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* Mwachala's CSS */
+
+#about_page:hover {
+cursor: help;
+}
+
+#post_header_text {
+font-family:"helvetica",lucida grande;
+font-size: 18px;
+}
+
+#post_header_text:hover {
+color:#36C
+}
